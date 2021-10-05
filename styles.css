@@ -1,0 +1,254 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+/*=====================================*/
+/* header */
+
+header {
+  height: 300px;
+  width: auto;
+  background-color: #1f2937;
+  color: #fff;
+}
+li {
+  list-style-type: none;
+}
+a {
+  text-decoration: none;
+  padding: 14px 16px;
+  color: #fff;
+}
+a:hover {
+  background-color: #45789d;
+}
+.nav-bar {
+  display: flex;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding-top: 20px;
+  font-family: "Roboto Mono", monospace;
+}
+
+.header-logo {
+  line-height: 1.2px;
+  font-size: 24px;
+  flex: 1;
+  margin-top: 10px;
+  font-family: "Roboto Mono", monospace;
+}
+
+.nav-elements {
+  display: flex;
+}
+
+.nav-element-list {
+  flex: 1;
+  list-style-type: none;
+  padding: 10px;
+  margin-right: 30px;
+  font-family: "Roboto Mono", monospace;
+  cursor: pointer;
+}
+
+/*=====================================*/
+
+/* section 1  of header*/
+
+.section-hero {
+  display: flex;
+  width: 1200px;
+  margin: 0 auto;
+  margin-top: 20px;
+  align-items: center;
+}
+.section-1 {
+  flex: 1;
+  /* background-color: red; */
+  width: 100px;
+  height: 150px;
+  /* text-align: center; */
+}
+
+.section-2 {
+  margin-left: 250px;
+  margin-right: 250px;
+}
+.section-1-heading {
+  font: 48px;
+  font-family: "Roboto Mono", monospace;
+  font-weight: 700;
+  line-height: 1.6;
+}
+
+.section-2-paragraph {
+  font: "Roboto Mono", monospace;
+  font-size: 18px;
+  color: #e5e7eb;
+}
+
+.btn-header {
+  color: #fff;
+  background-color: #0077b6;
+  border-radius: 8px;
+  font: "Roboto Mono", monospace;
+  font-size: 18px;
+  font-weight: bold;
+  padding: 15px 30px;
+  text-align: center;
+  border: none;
+  cursor: pointer;
+}
+.btn-header:hover {
+  background-color: #fff;
+  color: #3882f6;
+}
+/*=====================================*/
+
+/* section  2  of header */
+
+.section-2 {
+  /* text-align: center; */
+}
+.section-2-paragraph {
+  text-align: center;
+  padding: 60px 40px 80px 40px;
+  background-color: #808080;
+}
+
+/*=====================================*/
+
+.second-part {
+  /* height: 300px; */
+  height: auto;
+  width: auto;
+  background-color: #fff;
+  color: #000;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding-top: 20px;
+}
+
+.random-info {
+  text-align: center;
+  font: "Roboto Mono", monospace;
+  line-height: 1.6;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.section-boxes {
+  display: flex;
+}
+.boxes {
+  margin-right: 70px;
+}
+
+.box1 {
+  width: 200px;
+  height: 200px;
+  margin: 10px;
+  padding: 20px;
+  border-radius: 15px;
+  border: 2px solid #0077b6;
+  background-color: #fff;
+}
+
+.subtext {
+  font-family: "Roboto Mono", monospace;
+  line-height: 1.6;
+  text-align: center;
+}
+
+/*=====================================*/
+
+/* third part  */
+.third-part {
+  height: 300px;
+  width: auto;
+  background-color: hsl(220, 13%, 91%);
+  margin-top: 150px;
+  padding-top: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.quote {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  line-height: 1.6;
+  font-size: 1.2rem;
+  margin: 0 200px;
+}
+
+.quoter {
+  margin-left: 600px;
+  font-weight: bold;
+}
+
+/*=====================================*/
+
+/* fourth-part  */
+.fourth-part {
+  height: 200px;
+  width: auto;
+  background-color: #fff;
+  color: #000;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding-top: 20px;
+}
+
+.container-last {
+  display: flex;
+  width: 900px;
+  margin: 0 auto;
+  margin-top: 40px;
+  margin-bottom: 70px;
+  border: 1px solid blue;
+  border-radius: 10px;
+  padding: 30px 60px;
+  background-color: #3882f6;
+  color: #fff;
+  line-height: 1.2;
+  align-items: center;
+}
+
+.para {
+  flex: 1;
+}
+.last-btn {
+  background-color: #3882f6;
+  color: #fff;
+  padding: 2px 25px;
+  border: 1px solid #fff;
+  border-radius: 4px;
+  font-size: medium;
+  cursor: pointer;
+}
+
+.last-btn:hover {
+  background-color: #fff;
+  color: #3882f6;
+}
+/*=====================================*/
+
+/* fourth-part  */
+
+.fifth-part {
+  height: 100px;
+  width: auto;
+  background-color: #1f2937;
+  color: #fff;
+  margin: 0 auto;
+  padding-top: 20px;
+  display: flex;
+}
+
+.last-para {
+  /* width: 1200px; */
+  margin: 0 550px;
+  justify-items: center;
+}
