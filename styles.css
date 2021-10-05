@@ -245,6 +245,7 @@ a:hover {
   margin: 0 auto;
   padding-top: 20px;
   display: flex;
+  align-items: center;
 }
 
 .last-para {
